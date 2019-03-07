@@ -16,7 +16,7 @@ private UserBiz userBiz;
     @RequestMapping("/list")
     @ResponseBody
     public Object getAll(){
-        System.out.println("111122222222");
+        System.out.println("111122222222dev");
         return  userBiz.getAll();
 
     }
