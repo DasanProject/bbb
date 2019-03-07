@@ -18,6 +18,7 @@ private UserBiz userBiz;
     public Object getAll(){
         System.out.println("111122222222123123");
         System.out.println("111122222222dev");
+        System.out.println("pull一下试试呀");
         return  userBiz.getAll();
 
     }
