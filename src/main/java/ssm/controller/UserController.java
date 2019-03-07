@@ -17,6 +17,7 @@ private UserBiz userBiz;
     @ResponseBody
     public Object getAll(){
         System.out.println("111122222222123123");
+        System.out.println("111122222222dev");
         return  userBiz.getAll();
 
     }
